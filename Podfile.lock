@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Cloudinary (2.8.0):
+    - Alamofire (~> 4.8.2)
+  - GradientCircularProgress (3.13.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cloudinary (~> 2.0)
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cloudinary
+    - NVActivityIndicatorView
+
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: 9e2dc60d335ee6eb3677bfd9f965f0ade3607f4c
+    :git: https://github.com/keygx/GradientCircularProgress
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Cloudinary: 57c51232648d18bd242db1774c8fa80476c58795
+  GradientCircularProgress: f5a04b862adc1fbafbd21c0ff450ed7d74d1926e
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+
+PODFILE CHECKSUM: 4884e4ee22ef3a4591d9db5ac29c0a5e80ca0894
+
+COCOAPODS: 1.8.4
